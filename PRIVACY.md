@@ -26,11 +26,16 @@ As with any web request, Mixpanel receives your IP address when events are deliv
 
 We do **not** collect your email address, your Figma account ID, or any content from your design files.
 
+## What is stored locally
+
+- Plugin settings and the random identifier are stored on your device via Figma's `clientStorage`.
+- Each Mirror stores its source metadata (source page/node IDs and names) as plugin data on the mirror node, inside your own Figma file — visible only to people who already have access to that file. None of this is transmitted.
+
 ## Who processes this data
 
 Mixpanel, Inc. acts as our data processor. Mixpanel maintains SOC 2 Type II, ISO 27001, and ISO 27701 certifications and offers a GDPR-compliant Data Processing Addendum ([details](https://mixpanel.com/legal/mixpanel-gdpr/)). Data is stored in Mixpanel's United States data centers.
 
-Only the plugin developer has access to this data. We do not sell it, share it with anyone else, or use it for advertising.
+Only the plugin's development team (two people) has access to this data. We do not sell it, share it with anyone else, or use it for advertising.
 
 ## Retention and deletion
 

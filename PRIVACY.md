@@ -1,6 +1,6 @@
 # MockupMirror Privacy Policy
 
-**Effective date: July 18, 2026**
+**Effective date: November 8, 2026**
 
 MockupMirror is a Figma plugin that creates image snapshots ("Mirrors") of frames and components inside your Figma file. This document describes exactly what data the plugin collects, why, and what it never touches.
 
@@ -12,7 +12,7 @@ All design content is processed locally inside Figma:
 - Layer names, page names, file names, and any other canvas content are never transmitted.
 - Text you type into the plugin (such as the Mirror name prefix) is stored only in Figma's local plugin storage and is never transmitted.
 
-The plugin's network access is restricted by its manifest to a single domain, `api-js.mixpanel.com`. Figma enforces this restriction at the platform level, so the plugin is technically unable to send data anywhere else.
+The plugin's network access is restricted by its manifest to `api-js.mixpanel.com` (analytics) and Google Fonts (`fonts.googleapis.com`, `fonts.gstatic.com`, font downloads only). Figma enforces this restriction at the platform level, so the plugin is technically unable to send data anywhere else.
 
 ## What we collect
 
